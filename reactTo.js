@@ -29,6 +29,8 @@
 		} else {
 			if (isField) {
 				proxy = obj + '.' + field;
+			} else {
+				proxy = obj;
 			}
 		}
 		return proxy;
