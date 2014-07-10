@@ -68,6 +68,7 @@
 					}
 				}
 			}, deep);
+			return unwatch;
 		}
 	}
 
