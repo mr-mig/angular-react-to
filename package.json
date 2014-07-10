@@ -1,0 +1,32 @@
+{
+  "name": "angular-react-to",
+  "version": "0.0.1",
+  "description": "Wrapper for react to",
+  "main": "reactTo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/azadorozhniy/angular-react-to.git"
+  },
+  "keywords": [
+    "angular",
+    "$watch",
+    "util"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azadorozhniy/angular-react-to/issues"
+  },
+  "homepage": "https://github.com/azadorozhniy/angular-react-to",
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "karma": "~0.12.16",
+    "gulp-karma": "0.0.4",
+    "karma-jasmine": "~0.1.5",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-chrome-launcher": "~0.1.4"
+  }
+}
