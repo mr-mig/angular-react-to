@@ -2,19 +2,19 @@ module.exports = function (config) {
 	config.set({
 		basePath: '',
 		frameworks: ['jasmine'],
-		plugins : ['karma-jasmine',
-			'karma-phantomjs-launcher',
-			'karma-chrome-launcher'
+		plugins: [
+			'karma-jasmine',
+			'karma-phantomjs-launcher'
 		],
 		autoWatch: true,
 
-		files : [
+		files: [
 			'bower_components/angular/angular.js',
 			'bower_components/angular-mocks/angular-mocks.js',
 			'reactTo.js',
 			'tests/test.js'
 		],
 
-		browsers: ['Chrome']
+		browsers: ['PhantomJS']
 	});
 };
