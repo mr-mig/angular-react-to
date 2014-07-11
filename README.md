@@ -1,5 +1,6 @@
 angular-react-to
 ================
+[![Build Status](https://travis-ci.org/mr-mig/angular-react-to.svg?branch=master)](https://travis-ci.org/mr-mig/angular-react-to)
 
 A helper for watching a value in the scope.
 Planned to use instead of `scope.$watch`
@@ -14,5 +15,7 @@ Planned to use instead of `scope.$watch`
 ```
 npm install
 bower install
-gulp
+npm test
 ```
+
+You can run `gulp` to run a test watcher.
