@@ -1,6 +1,7 @@
 angular-react-to
 ================
 [![Build Status](https://travis-ci.org/mr-mig/angular-react-to.svg?branch=master)](https://travis-ci.org/mr-mig/angular-react-to)
+![Dev deps](https://david-dm.org/mr-mig/angular-react-to/dev-status.svg)
 
 A helper for watching **any value change** related to the specified scope.
 
