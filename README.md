@@ -14,18 +14,20 @@ Put in other words:
 
 But there are only 2 usecases:
 
-1. The value must be assigned to the scope
+1. The value must be assigned to the scope:
+
   ```javascript
-  scope.myVal = 5
+  scope.myVal = 5;
   scope.$watch('myVal', fn); // fn is called when myVal is changed
   ```
 2. A custom function wrapper should be created:
+
  ```javascript
  var watchCondition = function(){
    return someService.someField;
  }
 
- scope.$watch(watchCondition, fn)
+ scope.$watch(watchCondition, fn);
  ```
 
 `reactTo` unites those two approaches, allowing you the next usages:
