@@ -1,14 +1,14 @@
 {
   "name": "angular-react-to",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Wrapper for react to",
   "main": "reactTo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/azadorozhniy/angular-react-to.git"
+    "url": "git://github.com/mr-mig/angular-react-to.git"
   },
   "keywords": [
     "angular",
@@ -18,9 +18,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azadorozhniy/angular-react-to/issues"
+    "url": "https://github.com/mr-mig/angular-react-to"
   },
-  "homepage": "https://github.com/azadorozhniy/angular-react-to",
+  "homepage": "https://github.com/mr-mig/angular-react-to",
   "devDependencies": {
     "gulp": "~3.8.6",
     "karma": "~0.12.16",

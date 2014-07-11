@@ -1,0 +1,6 @@
+.gitignore
+.travis.yml
+.idea
+karma.conf.js
+tests/
+gulpfile.js
